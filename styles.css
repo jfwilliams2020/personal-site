@@ -1,3 +1,5 @@
+/* stanky COOLORS #93E1D8, #FFA69E */
+
 @font-face {
     font-family: "Eurostile";
     src: url('./eurostile/eurostile.TTF');
@@ -5,7 +7,6 @@
 
 body {
     text-align: center;
-    margin: 25px 15% 0 15%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,3 +14,49 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+.navbar-light {
+    background-color: white !important;
+}
+
+header {
+    height: 100vh;
+    margin: 25px 15% 0 15%;
+}
+
+header h1 {
+    margin: 30px;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: #DDFFF7;
+    width: 200px;
+    margin: 50px;
+}
+
+.intro-container {
+    background-color: #ff6473;
+    min-height: 500px;
+}
+
+.intro-text-container {
+    padding: 50px 0;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+.intro-text-container h2 {
+    margin-bottom: 25px;
+}
+
+/* mobile only styles */
+@media screen and (max-width: 500px) {
+    .avatar {
+        width: 150px;
+    }
+
+    .intro-text-container {
+        width: 75%;
+    }
+}
