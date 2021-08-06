@@ -34,6 +34,7 @@ header h1 {
     margin: 50px;
 }
 
+/* intro-container styles */
 .intro-container {
     background-color: #ff6473;
     min-height: 500px;
@@ -50,8 +51,62 @@ header h1 {
     margin-bottom: 25px;
 }
 
+/* skills-container styles */
+.skills-container {
+    position: relative;
+    bottom: 150px;
+    border-radius: 15px;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+}
+
+.skills-container h4 {
+    margin: 15px 0;
+}
+
+.skills-container .col-lg-4 {
+    border: 1px solid rgba(209, 209, 209, 0.849);
+    padding: 15px;
+}
+
+.skills-container .left {
+    border-radius: 15px 0 0 15px;
+    border: 1px solid rgba(209, 209, 209, 0.849);
+}
+
+.skills-container .right {
+    border-radius: 0 15px 15px 0;
+    border: 1px solid rgba(209, 209, 209, 0.849);
+}
+
+#graduation-img {
+    fill: #ff6473;
+    width: 75px;
+}
+
+.red-text {
+    color: #ff6473;
+    font-weight: 500;
+}
+
+.list-text {
+    margin: 0;
+}
+
+/* weird style with bootstrap container */
+@media screen and (max-width: 990px) {
+    .skills-container .left {
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .skills-container .right {
+        border-radius: 0 0 15px 15px;
+    }
+}
+
 /* mobile only styles */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .avatar {
         width: 150px;
     }
