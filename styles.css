@@ -18,6 +18,16 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white !important;
 }
 
+.nav-link {
+    background-color: #ff6473;
+    font-weight: bold;
+    color: white !important;
+}
+
+#logo {
+    width: 75px;
+}
+
 header {
     min-height: 100vh;
     margin: 0 15% 0 15%;
@@ -118,6 +128,10 @@ header h1 {
 
     .background-hero {
         width: 75% !important;
+    }
+
+    .nav-link {
+        margin-top: 15px;
     }
 }
 
