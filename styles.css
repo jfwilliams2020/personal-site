@@ -19,8 +19,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    height: 100vh;
-    margin: 25px 15% 0 15%;
+    min-height: 100vh;
+    margin: 0 15% 0 15%;
+    padding-top: 25px;
 }
 
 header h1 {
@@ -32,6 +33,17 @@ header h1 {
     background-color: #DDFFF7;
     width: 200px;
     margin: 50px;
+}
+
+.background-hero {
+    width: 30%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* intro-container styles */
@@ -102,6 +114,16 @@ header h1 {
     
     .skills-container .right {
         border-radius: 0 0 15px 15px;
+    }
+
+    .background-hero {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .background-hero {
+        width: 50%;
     }
 }
 
