@@ -7,11 +7,17 @@
 
 body {
     text-align: center;
+    line-height: 2;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Eurostile;
     font-weight: bold;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 1.25em;
 }
 
 .navbar-light {
@@ -45,17 +51,6 @@ header h1 {
     margin: 50px;
 }
 
-.background-hero {
-    width: 30%;
-    display: block;
-    position: absolute;
-    z-index: -1;
-    margin: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
 /* intro-container styles */
 .intro-container {
     background-color: #ff6473;
@@ -83,6 +78,10 @@ header h1 {
     margin: auto;
 }
 
+.skills-container p {
+    font-size: 1em;
+}
+
 .skills-container h4 {
     margin: 15px 0;
 }
@@ -102,7 +101,8 @@ header h1 {
     border: 1px solid rgba(209, 209, 209, 0.849);
 }
 
-#graduation-img {
+.skills-container svg {
+    margin: 15px;
     fill: #ff6473;
     width: 75px;
 }
