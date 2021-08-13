@@ -34,7 +34,6 @@ p {
 }
 
 header {
-    min-height: 100vh;
     margin: 0 15% 0 15%;
     padding-top: 25px;
 }
